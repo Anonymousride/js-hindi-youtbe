@@ -25,3 +25,9 @@ for (const greet of greeting) {
 for (const [key,value] of map) {
     console.log(key,":-",value);
 }
+
+// for (const [key,value] of myObject) {     //Object mei ye key:value wala for-Of kaam nhi krta iska liya For-in use krta hai
+//     console.log(key,":-",value);
+// }
+
+//*Note :- For-in loop map pr istemal krna pr error toh nhi dega pr kuch output bhi nhi dega.
